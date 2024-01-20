@@ -4,12 +4,12 @@ body{
     
 }
 .TratamentoTittle{
-    width: 100%;
+    width: calc(100% - 50px);
     height: 300px;
     background-image: 
     
     linear-gradient(90deg,#ffebc9 35%,rgba(255,255,255,0) 76%)
-    ,url(https://aterapeutacapilar.com.br/wp-content/uploads/2023/07/fundo_banner_celular.jpg) !important;
+    ,url(https://aterapeutacapilar.com.br/wp-content/uploads/2023/07/fundo_banner_celular.jpg)  !important;
     padding-left    : 50px;
     display: flex;
     flex-direction: column;

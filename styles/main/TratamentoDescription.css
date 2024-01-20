@@ -1,0 +1,126 @@
+.TratamentoDescription{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin-bottom: 50px;
+}
+.TratamentoDescription h2{
+    margin: 0;
+    padding-top: 1rem;
+    width: 100%;
+    height: auto;
+    text-align: center;
+    font-size: 30px;
+    font-weight: 700;
+    color: #000000;
+}
+
+.TratamentoDescription p{
+    margin: 0;
+    padding: 0;
+    width: 75%;
+    height: auto;
+    text-align: center;
+    
+    padding: 1rem;
+    color: #000000;
+}
+
+.TratamentoDescription ol{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 5px;
+    align-items: center;    
+    width: 75%;
+    margin: 0%;
+    padding: 0%;
+}
+.TratamentoDescription ol li{
+     display: flex;
+    flex-direction: column; 
+     align-items: center;
+        justify-content: center;
+    width: auto;
+    height: auto;
+    padding: 0%;
+}
+.TratamentoDescription ol li img{
+     
+    width: 100px;
+    height: 100px;
+    padding: 0%;
+}
+.TratamentoDescription ol li h3{
+    margin: 0%;
+    padding: 0%;
+}
+.TratamentoDescription section{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    width: 75%;
+    margin: 0%;
+    padding: 0%;
+    padding-top: 1rem;
+}
+
+.TratamentoDescription section p{
+    text-align: left    ;
+    width: 100%;
+    margin: 0%;
+    padding: 0%;
+}
+
+.TratamentoDescription section ol{
+    width: 100%;
+    height: auto;
+    margin: 0;
+    padding: 0%;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+.TratamentoDescription section ol li{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: flex-start;
+    
+    width: 75%;
+    margin: 0;
+    padding: 0%;
+    gap:  15px;
+}
+.TratamentoDescription section ol li img{
+    aspect-ratio: 1/1;
+    width:  30px;
+    height: 30px;
+    margin: 0;
+    padding: 0%;
+    background-color: red;
+}
+.TratamentoDescription section ol li p{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    width: 100%;
+    height: 30px;
+    margin: 0;
+    padding: 0%;
+    text-align: left;
+}
+.TratamentoDescription button{
+    width: 60%;
+    max-width: 270px;
+    height: 60px;
+    border: 0px;
+    color: white;
+    background-color: deepskyblue;
+}
