@@ -62,13 +62,15 @@ header{
     .navBar{
         height: 0px;
         position: absolute;
-        top: 80px;
+        top: 40px;
         left: 0;
         right: 0;
         width: 100vw;
-        background-color: black;
+        background-color: antiquewhite;
         transition: 0.5s;
         overflow: hidden;
+        margin-bottom: 20px;
+        
     }
     .navBar.ativa{
         height: 450px;
@@ -79,7 +81,7 @@ header{
         margin: 80px auto 0 auto;
         text-align: center;
         transition: 0.5s;
-        opacity: 0;
+        
 
     }
     .navBar.ativa ul {
@@ -87,6 +89,7 @@ header{
     }
     .navBar ol li a {
         margin-bottom: 12px;
+        color: black ;
     }
     
 }
