@@ -1,0 +1,41 @@
+body{
+    margin: 0%;
+    padding: 0%;
+    
+}
+.TratamentoTittle{
+    width: 100%;
+    height: 300px;
+    background-image: 
+    
+    linear-gradient(90deg,#ffebc9 35%,rgba(255,255,255,0) 76%)
+    ,url(https://aterapeutacapilar.com.br/wp-content/uploads/2023/07/fundo_banner_celular.jpg) !important;
+    padding-left    : 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 10px;
+}
+.TratamentoTittle h1{
+    margin: 0;
+    padding: 0;
+    width: 50%;
+    height: auto;
+}
+.TratamentoTittle p{
+    margin: 0;
+    padding: 0;
+    width: 50%;
+    height: auto;
+}
+.TratamentoTittle button{
+    margin: 0;
+    padding: 0;
+    width: 52px;
+
+    height: 52px;
+    background-color: none;
+    border-radius: 80px;
+    border: 5px solid black;
+}
