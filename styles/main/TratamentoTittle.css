@@ -38,4 +38,10 @@ body{
     border-radius: 80px;
     background: none;
     border: 2px solid black;
+
+}
+.TratamentoTittle button a{
+    text-decoration: none;
+    list-style: none;
+
 }
