@@ -28,4 +28,65 @@ header{
     margin: 0 5px;
     text-decoration: none;
 }
+.navBar ol{
+    display: flex;
+}
+.menu{
+    display: none;
+}
+.navBar ol li a:hover{
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+}
+.navBar ol li a.ativa{
+    color: black;
+    background-color: rgb(255, 255, 255);
+}
+@media only screen and (max-width:1320px) {
+    header{
+        padding: 0 50px;
+    }
+    
+}
+@media only screen and (max-width:1100px) {
+    header{
+        padding: 0 30px;
+    }
+    
+}
+@media only screen and (max-width:900px) {
+    .menu{
+        display: block;
+        cursor: pointer;
+    }
+    .navBar{
+        height: 0px;
+        position: absolute;
+        top: 80px;
+        left: 0;
+        right: 0;
+        width: 100vw;
+        background-color: black;
+        transition: 0.5s;
+        overflow: hidden;
+    }
+    .navBar.ativa{
+        height: 450px;
+    }
+    .navBar ol{
+        display: block;
+        width: fit-content;
+        margin: 80px auto 0 auto;
+        text-align: center;
+        transition: 0.5s;
+        opacity: 0;
 
+    }
+    .navBar.ativa ul {
+        opacity: 1;
+    }
+    .navBar ol li a {
+        margin-bottom: 12px;
+    }
+    
+}
