@@ -79,19 +79,14 @@ body {
 .tecnologia_título {
     color: white;
     font-size: 24px;
-    margin-top: 20px;
     font-weight: 900;
     text-align: center;
 }
 
 .tecnologia_descricao {
     color: white;
-    max-width: 300px;
-    color: white;
     text-align: center;
-    margin-top: 30px;
-    text-align: center;
-}
+    }
 
 .img_maquina {
     max-width: 50%;
