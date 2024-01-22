@@ -12,6 +12,7 @@
     <link rel="stylesheet" href="./styles/footer.css">
     <link rel="stylesheet" href="/styles/main/equipamentos.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
+    
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300&display=swap" rel="stylesheet">
     <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
@@ -33,7 +34,7 @@
                     <a href="#tratamentos">Tratamento </a>
                 </li>
                 <li>
-                    <a href="">Equipamentos</a>
+                    <a href="#equipamentos">Equipamentos</a>
                 </li>
                 <li>
                     <a href="">Sobre-nos</a>
@@ -59,7 +60,7 @@
                 Trate os fios e o couro cabeludo para resgatar e manter a sua saúde capilar.
             </p>
             <button>
-                <ion-icon name="arrow-down-outline"></ion-icon>
+             <a href="#tratamentos">   <ion-icon name="arrow-down-outline"></ion-icon></a>
             </button>
         </div>
         <div class="TratamentoDescription">
@@ -132,13 +133,11 @@
                 Fale com a especialista
             </button>
         </div>
-        <div class="tds_equipamentos">
-            <!-- Seção Equipamentos -->
+        <div class="tds_equipamentos" id="equipamentos">
             <div class="equipamentos_titulo">
                 <h2 class="titulo_inicio">Equipamentos</h2>
             </div>
 
-            <!-- Seção Tricoscópio -->
             <div class="section">
                 <div class="equipamentos">
                     <img class="img_equipamentos" src="https://aterapeutacapilar.com.br/wp-content/uploads/2023/06/tricocopio.jpg" alt="tricocopio" >
@@ -151,7 +150,6 @@
                 </div>
             </div>
 
-            <!-- Seção Tecnologia de Ponta -->
             <div class="tec_ponta">
                 <div class="tecnologia">
                     <h3 class="tecnologia_ título">Tecnologia de Ponta</h3>
@@ -161,12 +159,50 @@
                 <img src="/assets/img maquina.jpg" alt="" class="img_maquina">
             </div>
 
-            <!-- Vídeos e Detalhes dos Equipamentos (simplificado) -->
-            <div class="detalhes_equipamentos">
-                <!-- Inserir vídeos e detalhes dos equipamentos aqui -->
+            <div class="iframe-container">
+                <div class="iframe">
+                    <p>Laser Vermelho
+                    </p>
+                    <iframe width="315" height="560" src="https://www.youtube.com/embed/g9fZYFXGiT8" title="Benefícios do Tratamento Capilar a Laser 🖊🔴" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                </div>
+                <div class="iframe">
+                    <p>Led Azul
+                    </p>
+                    <iframe width="315" height="560" src="https://www.youtube.com/embed/64JejoxNrwI" title="ALISAMENTO A LASER 💡 #cabelo #cabeleireira #alisamentosemformol #lisoescorrido #progressiva #liso" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                </div>
+                <div class="iframe">
+                    <p>Led Ambar
+                    </p>
+                    <iframe width="315" height="560" src="https://www.youtube.com/embed/JlAMxK8A0d4" title="Laser Âmbar: prevenção" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                </div>
+                <div class="iframe">
+                    <p>Vacuoterapia
+                    </p>
+                    <iframe width="315" height="560" src="https://www.youtube.com/embed/DJ2h1F59t-k" title="Tratamento Capilar de Vacuoterapia 😱💆🏻‍♀️" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                </div>
+                <div class="iframe">
+                    <p>Alta Frequência
+                    </p>
+                    <iframe width="315" height="560" src="https://www.youtube.com/embed/rqgc7FK_YnI" title="Protocolo Capilar - Você já ouviu falar do pente de alta frequência? #shorts #short" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                </div>
+                <div class="iframe">
+                    <p> Vapor de Ozônio
+                    </p>
+                    <iframe width="315" height="560" src="https://www.youtube.com/embed/eG6svmOgwOg" title="Tratamento capilar com vapor de ozônio (Ozonioterapia Capilar)" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                </div>
+                <div class="iframe">
+                    <p> Terapia Ilib
+                    </p>
+                    <iframe width="315" height="560" src="https://www.youtube.com/embed/H4Sqp9ij1So" title="Terapia ILIB com o Fluence da HTM" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                </div>
+                <div class="iframe">
+                    <p> Microagulhamento
+                    </p>
+                    <iframe width="315" height="560" src="https://www.youtube.com/embed/SA0-stm9tDg" title="Microagulhamento capilar em Lajeado - Aplicação com dermaroller - Estética Facepeel" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                </div>
+                
             </div>
 
-            <!-- Botão de Chamada para Ação -->
             <div class="agende">
                 <a href="https://api.whatsapp.com/send?phone=5511951294471&#038;text=Ol%C3%A1,%20estava%20no%20site%20e%20gostaria%20de%20fazer%20um%20agendamento" target="_blank" class="cta-button">Agende uma avaliação</a>
             </div>
@@ -181,6 +217,7 @@
     <script src="./scripts/menu.js">
     </script>
     <script src="./scripts/includeHTML.js"></script>
+    <script src="/scripts/rolar.js"></script>
 </body>
 
 </html>
