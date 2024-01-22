@@ -40,7 +40,7 @@ body {
     align-items: center;
     padding: 50px;
     background-color: #a26737;
-    width: 600px;
+    width: 700px;
     height: 350px;
     margin-left: 40px;
     border-radius: 10px;
@@ -71,8 +71,9 @@ body {
 .tecnologia {
     text-align: center;
     background-color: #557E6E;
-    width: 600px;
+    width: 700px;
     height: 350px;
+    border-radius: 10px;
 }
 
 .tecnologia_título {
@@ -95,6 +96,9 @@ body {
 .img_maquina {
     max-width: 50%;
     border-radius: 8px;
+    align-items: center;
+    justify-content: center;
+    margin-right: 200px;
 }
  
 .agende {
@@ -105,7 +109,7 @@ body {
 .cta-button {
     display: inline-block;
     padding: 15px 30px;
-    background-color: #3498db;
+    background-color: #557E6E;
     color: #fff;
     text-decoration: none;
     font-size: 18px;
@@ -147,5 +151,27 @@ body {
     text-transform: uppercase;
     height: 40px;
     padding: 10px;
-    
 }
+
+
+.sobre_mim {
+    display: flex;
+   flex-wrap: wrap;
+   align-items: center;
+    justify-content: space-around;
+    width: 100%;
+    padding: 50px 0;
+    background-color: #f9f2ed;
+    
+  }
+  
+  .sobre_mim h1 {
+    font-size: 3rem;
+    margin-bottom: 20px;
+    color: #333;
+    flex: 1;
+  }
+  
+  
+  
+  
