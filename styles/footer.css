@@ -1,4 +1,5 @@
-footer{
+/* Estilo padrão */
+footer {
     width: 100%;
     min-height: 300px;
     height: auto;
@@ -7,8 +8,10 @@ footer{
     flex-direction: column;
     justify-content: flex-start;
     align-items: center;
+    
 }
-footer h2{
+
+footer h2 {
     margin: 0%;
     padding: 0%;
     font-size: 30px;
@@ -17,12 +20,12 @@ footer h2{
     padding-top: 1rem;
     padding-bottom: 1rem;
 }
-footer ol{
+
+footer ol {
     width: 80%;
     margin: 0%;
     padding: 0%;
     height: auto;
-
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -30,29 +33,33 @@ footer ol{
     flex-wrap: wrap;
     gap: 5px;
 }
-footer ol li{
+
+footer ol li {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     gap: 5px;
-    width:180px;
+    width: 180px;
     height: 180px;
 }
-footer ol li img{
+
+footer ol li img {
     border: 0px;
     background-color: aquamarine;
     width: 100px;
     height: 100px;
 }
-footer ol li p{
+
+footer ol li p {
     margin: 0%;
     padding: 0%;
     width: auto;
     height: auto;
-    
+    margin-bottom: 20px;
 }
-footer section{
+
+footer section {
     width: 100%;
     height: auto;
     display: flex;
@@ -63,38 +70,40 @@ footer section{
     padding-top: 1rem;
     padding-bottom: 3rem;
 }
-footer img{
+
+footer img {
     width: 50px;
     height: 50px;
     padding: 10px;
     border-radius: 15px;
-    
 }
-footer h3{
+
+footer h3 {
     margin: 0%;
     padding: 0%;
     height: auto;
     word-break: keep-all;
     width: 70%;
     padding-bottom: 2rem;
-
 }
 
-.icons_footer{
+.icons_footer {
     width: 100px;
-     height: 80px;
-     color: white;
+    height: 80px;
+    color: white;
 }
-hr{
+
+hr {
     width: 70%;
     height: 3px;
-    background-color:white;
+    background-color: white;
     border: 0px;
     margin: 0%;
     padding: 0%;
     margin-bottom: 30px;
 }
-.footer_botao{
+
+.footer_botao {
     display: inline-block;
     padding: 15px 30px;
     background-color: #557E6E;
@@ -109,24 +118,24 @@ hr{
     margin-bottom: 30px;
 }
 
-
 .btn-zap {
     position: fixed;
     bottom: 14px;
     right: 24px;
     z-index: 99;
-  }
-  .btn-zap img {
-    /* max-width: 94px; */
+}
+
+.btn-zap img {
     transition: transform 0.4s;
     width: 100px;
     height: 80px;
-  }
-  .btn-zap img:hover {
+}
+
+.btn-zap img:hover {
     transform: scale(1.1);
-  }
-  
-  .btn-zap .agende {
+}
+
+.btn-zap .agende {
     visibility: hidden;
     position: absolute;
     width: 120px;
@@ -142,34 +151,56 @@ hr{
     opacity: 0;
     transition: opacity 0.5s;
     text-decoration: none;
-  }
-  
-  .btn-zap:hover .agende {
+}
+
+.btn-zap:hover .agende {
     visibility: visible;
     opacity: 1;
-  }
+}
 
-  .content{
+.content {
     color: white;
-  }
-  .title{
+}
+
+.title {
     color: white;
-  }
-  
-  
-  @media screen and (max-width: 768px) {
-    .btn-zap img {
-      max-width: 60px;
+}
+
+/* Media query para telas menores */
+@media screen and (max-width: 768px) {
+    footer h2 {
+        font-size: 2.5rem;
     }
-  }
 
-   .p_footer{
-    color: white;
-    text-transform: uppercase;
-    margin-bottom: 15px;
-  } 
-  .h2_footer{
-    color: white;
-    font-size: 100px;
-    
-  }
+    footer p {
+        padding: 1rem;
+    }
+
+    footer ol li {
+        width: 100%;
+        margin-bottom: 1rem;
+    }
+
+    footer ol li img {
+        width: 100%;
+    }
+
+    footer section {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    footer img {
+        width: 3rem;
+        height: 3rem;
+    }
+
+    footer h3 {
+        width: 100%;
+    }
+
+    .footer_botao {
+        width: 80%;
+        max-width: none;
+    }
+}

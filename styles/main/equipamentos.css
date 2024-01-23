@@ -186,6 +186,25 @@ body {
   .sobre_mim p{
     text-align: center;
   }
-  .texto_sobre_mim h1 h2{
+  .texto_sobre_mim h1 {
     margin-bottom: 10px;
+  }
+
+  @media screen and (max-width: 768px){
+    .sobre_mim{
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+    }
+    .sobre_mim img{
+      margin-right: 0;
+      margin-bottom: 20px;
+    }
+    .texto_sobre_mim{
+      width: 100%;
+      height: 100%;
+    }
+    .texto_sobre_mim h1{
+      font-size: 2rem;
+    }
   }

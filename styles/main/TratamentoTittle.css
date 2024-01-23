@@ -1,47 +1,68 @@
-body{
+body {
     margin: 0%;
     padding: 0%;
-    
 }
-.TratamentoTittle{
-    width: calc(100% - 50px);
-    height: 300px;
-    background-image: 
-    
-    linear-gradient(90deg,#ffebc9 35%,rgba(255,255,255,0) 76%) !important;
-    padding-left    : 50px;
+
+.TratamentoTittle {
+    width: 100%;
+    height: 500px;
+    background-image: linear-gradient(90deg, #ffebc9 35%, rgba(255, 255, 255, 0) 76%), url('/assets/fundo_banner\ do\ cabelo.jpg');
+    padding: 0 5%;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: flex-start;
     gap: 10px;
+    background-repeat: no-repeat;
+    z-index: -1;
 }
-.TratamentoTittle h1{
+
+.TratamentoTittle h1 {
     margin: 0;
     padding: 0;
-    width: 50%;
-    height: auto;
+    width: 100%;
+    font-size: 3rem; /* Ajuste do tamanho da fonte para telas menores */
 }
-.TratamentoTittle p{
+
+.TratamentoTittle p {
     margin: 0;
     padding: 0;
-    width: 50%;
-    height: auto;
+    width: 100%;
 }
-.TratamentoTittle button{
+
+.TratamentoTittle button {
     margin: 0;
     padding: 0;
     width: 52px;
-
     height: 52px;
     background-color: none;
     border-radius: 80px;
     background: none;
     border: 2px solid black;
-
 }
-.TratamentoTittle button a{
+
+.TratamentoTittle button a {
     text-decoration: none;
     list-style: none;
+}
 
+/* Media query para telas menores */
+@media screen and (max-width: 768px) {
+    .TratamentoTittle {
+        height: 300px; /* Ajuste da altura para telas menores */
+        padding: 0 2%;
+    }
+
+    .TratamentoTittle h1 {
+        font-size: 2rem; /* Ajuste do tamanho da fonte para telas menores */
+    }
+
+    .TratamentoTittle p {
+        width: 100%;
+    }
+
+    .TratamentoTittle button {
+        width: 40px; /* Ajuste do tamanho do botão para telas menores */
+        height: 40px; /* Ajuste do tamanho do botão para telas menores */
+    }
 }
