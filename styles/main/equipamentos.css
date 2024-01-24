@@ -260,7 +260,10 @@ body {
       width: 100%;
       height: 100%;
     }
-    .texto_sobre_mim h1{
+    .texto_sobre_mim h1 h2{
       font-size: 2rem;
+      text-align: center;
+
     }
+    
   }
