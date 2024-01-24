@@ -178,14 +178,21 @@ body {
   .texto_sobre{
     justify-content: center;
     align-items: center;
-    width: 800px;
+    width: 900px;
     height: 200px;
 
   }
   
-  .sobre_mim p{
+  .sobre_mim p {
     text-align: center;
-  }
+    text-transform: uppercase;
+    font-size: 1em; 
+    color: #333;
+    letter-spacing: 1px; 
+    line-height: 1.2; 
+    margin-top: 30px;
+}
+
   .texto_sobre_mim h1 {
     margin-bottom: 10px;
   }
