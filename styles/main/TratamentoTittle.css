@@ -6,7 +6,7 @@ body {
 .TratamentoTittle {
     width: 100%;
     height: 500px;
-    background-image: linear-gradient(90deg, #ffebc9 35%, rgba(255, 255, 255, 0) 76%), url('/assets/fundo_banner\ do\ cabelo.jpg');
+    background-image: linear-gradient(90deg, #ffebc9 calc(100% - 960px), rgba(255, 255, 255, 0) 100%), url('/assets/fundo_banner\ do\ cabelo.jpg');
     padding: 0 5%;
     display: flex;
     flex-direction: column;
@@ -14,6 +14,7 @@ body {
     align-items: flex-start;
     gap: 10px;
     background-repeat: no-repeat;
+    background-position: right;
     z-index: -1;
 }
 
