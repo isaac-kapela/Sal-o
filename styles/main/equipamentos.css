@@ -226,8 +226,8 @@ body {
   .texto_sobre{
     justify-content: center;
     align-items: center;
-    width: 900px;
-    height: 200px;
+    width: 100%;
+    height: auto;
 
   }
   
