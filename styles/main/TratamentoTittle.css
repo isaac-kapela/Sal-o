@@ -5,7 +5,7 @@ body {
 
 .TratamentoTittle {
     width: 100%;
-    height: 500px;
+    height: 900px;
     background-image: linear-gradient(90deg, #ffebc9 calc(100% - 960px), rgba(255, 255, 255, 0) 100%), url('/assets/fundo_banner\ do\ cabelo.jpg');
     padding: 0 5%;
     display: flex;
@@ -22,20 +22,21 @@ body {
     margin: 0;
     padding: 0;
     width: 100%;
-    font-size: 3rem; /* Ajuste do tamanho da fonte para telas menores */
+    font-size: 90px;
 }
 
 .TratamentoTittle p {
     margin: 0;
     padding: 0;
     width: 100%;
+    font-size: 1.9rem;
 }
 
 .TratamentoTittle button {
     margin: 0;
     padding: 0;
-    width: 52px;
-    height: 52px;
+    width: 72px;
+    height: 72px;
     background-color: none;
     border-radius: 80px;
     background: none;
@@ -45,6 +46,13 @@ body {
 .TratamentoTittle button a {
     text-decoration: none;
     list-style: none;
+}
+
+.TratamentoTittle button ion-icon{
+    width: 70px;
+    height: 30px;
+    color: black;
+    font-weight: bold;
 }
 
 /* Media query para telas menores */

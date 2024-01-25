@@ -112,6 +112,7 @@
     margin: 0;
     padding: 0;
     gap: 1vw;
+    flex-wrap: wrap;
 }
 
 /* Imagem no item da lista ordenada na seção */
@@ -123,6 +124,7 @@
     padding: 0;
     background-color: red;
     background-image: url(/assets/img_certo.jpg);
+   
 }
 
 /* Parágrafo no item da lista ordenada na seção */
