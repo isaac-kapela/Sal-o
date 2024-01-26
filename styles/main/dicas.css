@@ -4,3 +4,21 @@
     justify-content: center;
 }
 
+.titulo_dicas h2{
+
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    color: #a26737;
+    font-size: 25px;
+}
+
+blockquote{
+    margin-bottom: 30px;
+}
+
+.dicas_insta {
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}

@@ -41,12 +41,7 @@
     width: 75%;
     max-width: 550px;
 }
- @media screen and (max-width: 768px){
-    .TratamentoDescription ol{
-        flex-direction: column;
-        align-items: center;
-    }
- }
+ 
 /* Item da lista ordenada */
 .TratamentoDescription ol li {
     display: flex;
@@ -143,7 +138,7 @@
 /* Botão */
 .TratamentoDescription button {
     width: 60%;
-    max-width: 20vw;
+    max-width: 60vw;
     height: 6vw;
     border: 0px;
     color: black;
@@ -172,7 +167,9 @@
     }
 
     .TratamentoDescription button {
-        width: 80%; /* Ajuste da largura do botão para telas menores */
+        width: 150px; 
+        margin-top: 15px;
+        
     }
 }
 

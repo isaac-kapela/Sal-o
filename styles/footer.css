@@ -203,4 +203,9 @@ hr {
         width: 80%;
         max-width: none;
     }
+    .btn-zap img{
+        
+        height: 60px;
+        width: 80px;
+    }
 }

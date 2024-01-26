@@ -265,5 +265,47 @@ body {
       text-align: center;
 
     }
+    .img_equipamentos {
+      width: 70%;
+      height: 70%;
+    }
+    .cabeçalho_equipamento{
+      font-size: 11px;
+    }
+
+    .info-equipamento{
+      width: 100px;
+      height: 200px;
+      margin-right:20px;
+    }
+    .equipmento-descrição{
+      font-size: 9px;
+    }
+
+    .tecnologia{
+      height: 100px;
+
+    }
+    .iframe{
+      width: 300px;
+      height: 450px;
+    }
+    .texto_sobre p{
+      font-size: 10px;
+      margin-left: 8px;
+      margin-right: 8px;
+      gap: 1;
+    }
+    .coluna{
+      margin-top: 60px;
+    }
+    .texto_sobre-mim h2{
+      text-align: center;
+      font-size: 84px;
+    }
+    .texto-consultoria p{
+      font-size: 19px;
+    }
+    
     
   }

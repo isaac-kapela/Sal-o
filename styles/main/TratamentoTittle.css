@@ -35,7 +35,7 @@ body {
 .TratamentoTittle button {
     margin: 0;
     padding: 0;
-    width: 72px;
+    width: 82px;
     height: 72px;
     background-color: none;
     border-radius: 80px;
@@ -55,6 +55,8 @@ body {
     font-weight: bold;
 }
 
+
+
 /* Media query para telas menores */
 @media screen and (max-width: 768px) {
     .TratamentoTittle {
@@ -63,15 +65,38 @@ body {
     }
 
     .TratamentoTittle h1 {
-        font-size: 2rem; /* Ajuste do tamanho da fonte para telas menores */
+        font-size: 2rem; 
+    }
+
+    .TratamentoDescription ol li h3{
+        font-size: 16px;
+    }
+
+    .TratamentoTittle button ion-icon{
+        width: 30px;
     }
 
     .TratamentoTittle p {
         width: 100%;
+        font-size: 16px;
     }
 
     .TratamentoTittle button {
-        width: 40px; /* Ajuste do tamanho do botão para telas menores */
-        height: 40px; /* Ajuste do tamanho do botão para telas menores */
+        width: 40px; 
+        height: 40px; 
+    }
+
+    .TratamentoDescription section p{
+        font-size:14px;
+        margin-top: 10px;
+    }
+}
+@media screen and (max-width: 480px){
+    .TratamentoDescription p{
+        width: 70%;
+    }
+    .TratamentoDescription button a{
+        font-size: 5px;
+
     }
 }
