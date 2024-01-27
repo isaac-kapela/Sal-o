@@ -5,7 +5,10 @@
     text-decoration: none;
 }
 
+body{
+    font-family: "quicksand", sans-serif;
 
+}
 /* Layout principal */
 .TratamentoDescription {
     display: flex;
@@ -155,7 +158,8 @@
     border: 0px;
     color: black;
     background-color: #557E6E;
-    border-radius: 3px;
+    border-radius: 5px;
+    font-size: 18px;
 }
 
 .image-grid {
@@ -189,7 +193,7 @@
     }
 
     .TratamentoDescription button {
-        width: 150px; 
+        width: 220px; 
         margin-top: 15px;
         
     }

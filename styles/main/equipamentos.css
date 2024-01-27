@@ -1,7 +1,8 @@
 body {
-    font-family: 'Arial', sans-serif;
     margin: 0;
     padding: 0;
+    font-family: "quicksand", sans-serif;
+
 }
 .equipamentosCima{
 
@@ -208,8 +209,6 @@ body {
     background-color: #f9f2ed;
     padding-bottom: 20px;
     
-
-    
   }
   .sobre_mim img{
     width: 300px;
@@ -252,6 +251,17 @@ body {
   }
 
   @media screen and (max-width: 768px){
+    .titulo_inicio{      
+      font-size: 35px;
+      text-align: center;
+      color: #a26737;
+      font-weight: bold;
+      margin-right: 80px; 
+    
+    }
+    .equipamentosCima{
+      display: none;
+    }
     .sobre_mim{
       flex-direction: column;
       align-items: center;
@@ -268,6 +278,9 @@ body {
     .texto_sobre_mim h1 h2{
       font-size: 2rem;
       text-align: center;
+      justify-content: center;
+      align-items: center;
+    
 
     }
     .img_equipamentos {
@@ -304,9 +317,15 @@ body {
     .coluna{
       margin-top: 60px;
     }
-    .texto_sobre-mim h2{
+    .texto_sobre_mim h1{
+      justify-content: center;
       text-align: center;
-      font-size: 84px;
+      align-items: center;
+      
+    }
+    .texto_sobre_mim h2{
+      text-align: center;
+      font-size: 30px;
     }
     .texto-consultoria p{
       font-size: 19px;

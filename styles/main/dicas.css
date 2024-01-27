@@ -1,4 +1,7 @@
+body{
+    font-family: "quicksand", sans-serif;
 
+}
 
 .titulo_dicas h2{
 
@@ -27,3 +30,19 @@
 
 }
 
+@media (max-width: 600px) {
+    .titulo_dicas h2 {
+        font-size: 30px;
+        margin-top: 15px;
+        margin-bottom: 15px;
+    }
+    .posts-grid {
+        grid-template-columns: 1fr; 
+        gap: 5px; 
+    }
+    .pots {
+        width: 90%;
+        height: 90%;
+        margin-left: 10px;
+    }
+}
