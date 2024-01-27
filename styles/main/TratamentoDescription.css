@@ -151,8 +151,8 @@ body{
 }
 
 /* Botão */
-.TratamentoDescription button {
-    width: 30%;
+.TratamentoDescription  button {
+    width: 200%;
     max-width: 60vw;
     height: 6vw;
     border: 0px;
@@ -160,6 +160,11 @@ body{
     background-color: #557E6E;
     border-radius: 5px;
     font-size: 18px;
+}
+.TratamentoDescription   a{
+    
+    
+    color: black;
 }
 
 .image-grid {
