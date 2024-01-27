@@ -16,6 +16,10 @@ footer {
     margin-right:15px;
 }
 
+.footer_botao a{
+    color: white    ;
+}
+
 footer h2 {
     margin: 0%;
     padding: 0%;
